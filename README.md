@@ -12,3 +12,6 @@ $ sudo docker-compose exec web python manage.py startapp mytest
 
 $ sudo docker exec -ti sgt_web /bin/bash
 
+#### Criar senha superusuario
+
+$ sudo ./criar_senha_superusuario.sh
